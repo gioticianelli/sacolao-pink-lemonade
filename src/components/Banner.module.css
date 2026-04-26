@@ -1,0 +1,42 @@
+/* Banner.module.css */
+.banner {
+  background: linear-gradient(135deg, #F28B0C 0%, #F2600C 100%);
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+}
+
+.textoBanner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.textoBanner h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.textoBanner p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.botao {
+  background-color: white;
+  color: #F2600C;
+  border: none;
+  padding: 12px 28px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.3s, background-color 0.3s;
+  display: inline-block;     /* ← importante para o Link se comportar como botão */
+  text-decoration: none;     /* ← remove sublinhado */
+}
+
+.botao:hover {
+  transform: scale(1.05);
+  background-color: #6CA2E8;
+  color: white;
+}

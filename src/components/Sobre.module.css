@@ -1,0 +1,24 @@
+/* Sobre.module.css */
+.sobre {
+  background: linear-gradient(135deg, #6CA2E8 0%, #818807 100%);
+  padding: 7px 5px;
+  color: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.titulo {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.texto {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}

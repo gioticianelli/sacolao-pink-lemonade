@@ -1,0 +1,26 @@
+.container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.titulo {
+  text-align: center;
+  color: #818807;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  text-align: center;
+  color: #F2600C;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}

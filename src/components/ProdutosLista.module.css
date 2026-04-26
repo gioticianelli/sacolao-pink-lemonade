@@ -1,0 +1,21 @@
+/* ProdutosLista.module.css */
+.section {
+  padding: 40px 20px;
+  background-color: #FFF8F0;
+}
+
+.titulo {
+  text-align: center;
+  color: #818807;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+}

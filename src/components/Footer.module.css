@@ -1,0 +1,52 @@
+/* Footer.module.css */
+.footer {
+  background-color: #818807;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.sociais {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 15px 0;
+  font-size: 1.1rem;
+}
+
+/* Estilo para os LINKS (a) dentro de sociais */
+.sociais a {
+  color: white;           /* ← texto branco */
+  text-decoration: none;  /* ← remove o sublinhado */
+  transition: color 0.3s;
+}
+
+.sociais a:hover {
+  color: #F28B0C;         /* ← laranja no hover */
+}
+
+/* Se ainda tiver spans, mantenha */
+.sociais span {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.sociais span:hover {
+  color: #F28B0C;
+}
+
+.creditos {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.ano {
+  font-size: 0.8rem;
+  opacity: 0.8;
+  margin-top: 5px;
+}

@@ -1,0 +1,53 @@
+/* Header.module.css */
+.header {
+  background-color: #818807;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.titulo {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  margin-top: 10px;
+}
+
+
+/* Adicione ou modifique estas classes */
+.link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #F28B0C;
+}
+
+.linkPromocao {
+  color: #F28B0C;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: white;
+  padding: 5px 15px;
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+
+.linkPromocao:hover {
+  background-color: #D9310B;
+  color: white;
+  transform: scale(1.05);
+}
