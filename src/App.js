@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/produtos" element={<Produtos />} />  {/* ← /produtos com S */}
-          <Route path="/contato" element={<Contato />} />
+          <Route path="#contato" element={<Contato />} />
           <Route path="/promocao" element={<Promocao />} />
         </Routes>
         <Footer />
