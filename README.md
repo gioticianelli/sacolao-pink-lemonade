@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# 🍋 Hortifruti Pink Lemonade
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react)
+![React Router](https://img.shields.io/badge/React_Router-6.20.0-CA4245?logo=react-router)
+![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?logo=vercel)
 
-## Available Scripts
+##  Sobre o Projeto
 
-In the project directory, you can run:
+O **Hortifruti Pink Lemonade** é um site de e-commerce para um hortifruti, desenvolvido como projeto de estudo em **React**. O site apresenta uma loja virtual de frutas com design responsivo, navegação entre páginas e seções de produtos em destaque e promoções.
 
-### `npm start`
+###  Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ✅ Página inicial com banner, produtos em destaque e seção "Sobre"
+- ✅ Listagem completa de produtos
+- ✅ Seção de promoções com preços destacados em vermelho
+- ✅ Página de contato com informações da loja
+- ✅ Navegação entre páginas sem recarregar (React Router)
+- ✅ Design responsivo (funciona em dispositivos móveis)
+- ✅ Estilização com CSS Modules (estilos isolados por componente)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+##  Componentes Criados
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Componente | Arquivo | Descrição |
+|------------|---------|-----------|
+| **Header** | `Header.js` | Cabeçalho com logo e menu de navegação (React Router) |
+| **Banner** | `Banner.js` | Chamada principal com botão para página de promoções |
+| **CardProduto** | `CardProduto.js` | Componente reutilizável para exibir nome, imagem e preço |
+| **ProdutosLista** | `ProdutosLista.js` | Lista todos os produtos usando `.map()` |
+| **Destaque** | `Destaque.js` | Seção com frutas da estação (Outono) |
+| **Promocao** | `Promocao.js` | Ofertas especiais com preço original riscado e preço promocional em vermelho |
+| **Sobre** | `Sobre.js` | Texto explicativo sobre a história da loja |
+| **Footer** | `Footer.js` | Rodapé com contatos, redes sociais e créditos |
 
-### `npm run build`
+### Páginas (React Router)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Página | Rota | Componentes |
+|--------|------|-------------|
+| Home | `/` | Destaque + Banner + ProdutosLista + Sobre |
+| Produtos | `/produtos` | Lista completa de produtos |
+| Promoção | `/promocao` | Produtos em oferta |
+| Contato | `/contato` | Informações de contato |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##  Paleta de Cores
 
-### `npm run eject`
+| Cor | Código | Utilização |
+|-----|--------|------------|
+| Verde Oliva | `#818807` | Header, Footer |
+| Azul Celeste | `#6CA2E8` | Destaques, hover |
+| Laranja Médio | `#F28B0C` | Botões secundários |
+| Laranja Forte | `#F2600C` | Botão principal, preços |
+| Terracota | `#D9310B` | Bordas, etiquetas de desconto |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+##  Tecnologias Utilizadas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **React.js** - Biblioteca para construção da interface
+- **React Router DOM** - Navegação entre páginas
+- **CSS Modules** - Estilização isolada por componente
+- **Vercel** - Hospedagem e deploy contínuo
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+##  Como executar localmente
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Clone o repositório
+git clone https://github.com/gioticianelli/sacolao-pink-lemonade.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Acesse a pasta do projeto
+cd sacolao-pink-lemonade
 
-### Code Splitting
+# Instale as dependências
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Execute o projeto
+npm start
+```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Deploy
+O site está hospedado na Vercel:
+🔗 Link do projeto: https://sacolao-pink-lemonade.vercel.app
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Mídias
 
-### Advanced Configuration
+https://github.com/user-attachments/assets/145bf2c8-84aa-4e16-a7ba-9093d385bd18
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4f36a08c-91e0-43c4-b8d8-b3e9842956fc" width="45%" />
+  <img src="https://github.com/user-attachments/assets/112e887f-ca27-4891-a0a4-2d985dcfa0bf" width="45%" />
+</p>
